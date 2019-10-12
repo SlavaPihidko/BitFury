@@ -1,0 +1,105 @@
+jDUbcVWr@gmail.com
+Žjson { "lastName": "Test","firstName": "Slava","refStoreId": 62,"email": "jDUbcVWr@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+‹responseHeaderHttpResponseProxy{HTTP/1.1 200 OK [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:49 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 17, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: ec93324f0597b1eec5abfb0b89e6417f, ETag: W/"11-YAs8v3keHejnfo3kqAE+ity2iCw", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20083-26580887-1, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 17,Chunked: false]}}
+StatusCode 200
+statusCodeFromApi 200
+’json { "lastName": "Test","firstName": "Slava","refStoreId": 62,"email": "slava17puh56@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+–responseHeaderHttpResponseProxy{HTTP/1.1 400 Bad Request [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:50 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 101, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 93b20943fea72557f5fd7e615aaec5cf, ETag: W/"65-ll5TSuzO45a0np74LI90F5DNiNM", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580895-1, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 101,Chunked: false]}}
+StatusCode 400
+statusCodeFromApi 400
+’json { "lastName": "Test","firstName": "Slava","refStoreId": 62,"email": "slava17puh56@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+–responseHeaderHttpResponseProxy{HTTP/1.1 400 Bad Request [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:50 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 101, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 27767c39440e11dba00ccfb707c69c72, ETag: W/"65-ll5TSuzO45a0np74LI90F5DNiNM", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20084-26580863-2, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 101,Chunked: false]}}
+StatusCode 400
+rresponseBody{"status":false,"errors":[{"message":"Sorry, this login already exists","stringCode":"LOGIN_ERROR"}]}
+ regResponse1.getStatus(): false
+0r.getMessage() Sorry, this login already exists
+r.getStringCode() LOGIN_ERROR
+lregResponse RegResponse{status=false, message='Sorry, this login already exists', stringCode='LOGIN_ERROR'}
+tregResponseExpected RegResponse{status=false, message='Sorry, this login already exists', stringCode='LOGIN_ERROR'}
+lRFAvZLr@gmail.com
+‰json { "lastName": "Test","firstName": "","refStoreId": 62,"email": "lRFAvZLr@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+–responseHeaderHttpResponseProxy{HTTP/1.1 400 Bad Request [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:51 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 192, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 32139e213dec9e9fed1752d50fad4c02, ETag: W/"c0-EqOraMAqEefOXtsJsEcEVc1aGK4", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580896-1, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 192,Chunked: false]}}
+StatusCode 400
+statusCodeFromApi 400
+‰json { "lastName": "Test","firstName": "","refStoreId": 62,"email": "lRFAvZLr@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+–responseHeaderHttpResponseProxy{HTTP/1.1 400 Bad Request [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:51 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 192, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 10919b7c14463ab851bf37393ea5c8bc, ETag: W/"c0-EqOraMAqEefOXtsJsEcEVc1aGK4", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580895-2, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 192,Chunked: false]}}
+StatusCode 400
+ÍresponseBody{"status":false,"errors":[{"message":"Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong","stringCode":"REQUEST_ERROR"}]}
+ regResponse1.getStatus(): false
+‰r.getMessage() Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong
+ r.getStringCode() REQUEST_ERROR
+ÇregResponse RegResponse{status=false, message='Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong', stringCode='REQUEST_ERROR'}
+ÏregResponseExpected RegResponse{status=false, message='Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong', stringCode='REQUEST_ERROR'}
+quYoLroW@gmail.com
+îjson { "lastName": "Test","firstName": "slavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaw","refStoreId": 62,"email": "quYoLroW@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+‘responseHeaderHttpResponseProxy{HTTP/1.1 409 Conflict [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:51 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 94, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 79e656c67e8e5e82533c60d6b2637f9b, ETag: W/"5e-/y8oTaG2ZIN1XwLEsraxhu/uoIY", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20087-26580850-3, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 94,Chunked: false]}}
+StatusCode 409
+statusCodeFromApi 409
+îjson { "lastName": "Test","firstName": "slavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaw","refStoreId": 62,"email": "quYoLroW@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+‘responseHeaderHttpResponseProxy{HTTP/1.1 409 Conflict [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:52 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 94, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 18030906bd909809f96e7b51954045a2, ETag: W/"5e-/y8oTaG2ZIN1XwLEsraxhu/uoIY", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580895-3, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 94,Chunked: false]}}
+StatusCode 409
+kresponseBody{"status":false,"errors":[{"message":"Move failed (registration)","stringCode":"MOVE_ERROR"}]}
+ regResponse1.getStatus(): false
+*r.getMessage() Move failed (registration)
+r.getStringCode() MOVE_ERROR
+eregResponse RegResponse{status=false, message='Move failed (registration)', stringCode='MOVE_ERROR'}
+mregResponseExpected RegResponse{status=false, message='Move failed (registration)', stringCode='MOVE_ERROR'}
+MtzSXwJU@gmail.com
+íjson { "lastName": "Test","firstName": "slavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslavaslava","refStoreId": 62,"email": "MtzSXwJU@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+‹responseHeaderHttpResponseProxy{HTTP/1.1 200 OK [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:54 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 17, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: d09ca4d5757bc9ec9418e0a349e9cc5c, ETag: W/"11-YAs8v3keHejnfo3kqAE+ity2iCw", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20083-26580887-2, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 17,Chunked: false]}}
+StatusCode 200
+statusCodeFromApi 200
+pWMiTorC@gmail.com
+‹json { "lastName": "Test","firstName": "  ","refStoreId": 62,"email": "pWMiTorC@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+‘responseHeaderHttpResponseProxy{HTTP/1.1 409 Conflict [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:54 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 94, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: ea26d01a9b69216c4e01dfc824d7b3d8, ETag: W/"5e-/y8oTaG2ZIN1XwLEsraxhu/uoIY", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580896-2, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 94,Chunked: false]}}
+StatusCode 409
+statusCodeFromApi 409
+‹json { "lastName": "Test","firstName": "  ","refStoreId": 62,"email": "pWMiTorC@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+‘responseHeaderHttpResponseProxy{HTTP/1.1 409 Conflict [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:54 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 94, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 13612a8dfe75781bf992357fc67d319b, ETag: W/"5e-/y8oTaG2ZIN1XwLEsraxhu/uoIY", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580896-3, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 94,Chunked: false]}}
+StatusCode 409
+kresponseBody{"status":false,"errors":[{"message":"Move failed (registration)","stringCode":"MOVE_ERROR"}]}
+ regResponse1.getStatus(): false
+*r.getMessage() Move failed (registration)
+r.getStringCode() MOVE_ERROR
+eregResponse RegResponse{status=false, message='Move failed (registration)', stringCode='MOVE_ERROR'}
+mregResponseExpected RegResponse{status=false, message='Move failed (registration)', stringCode='MOVE_ERROR'}
+GDuKkNFF@gmail.com
+–json { "lastName": "Test","firstName": "slava bla bla","refStoreId": 62,"email": "GDuKkNFF@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+‹responseHeaderHttpResponseProxy{HTTP/1.1 200 OK [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:56 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 17, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: 91faac218e43766b0f65885965ba1067, ETag: W/"11-YAs8v3keHejnfo3kqAE+ity2iCw", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580896-4, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 17,Chunked: false]}}
+StatusCode 200
+statusCodeFromApi 200
+	xDauGlaw@gmail.com
+	 json { "lastName": "Test","firstName": "Slava Ð¡Ð»Ð°Ð²Ð° --ÐÑ‘","refStoreId": 62,"email": "xDauGlaw@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+	‹responseHeaderHttpResponseProxy{HTTP/1.1 200 OK [Server: QRATOR, Date: Wed, 02 Oct 2019 07:52:58 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 17, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: c8c387135440ea4f9c592a56a85f979f, ETag: W/"11-YAs8v3keHejnfo3kqAE+ity2iCw", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20083-26580887-3, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 17,Chunked: false]}}
+	StatusCode 200
+	statusCodeFromApi 200
+
+jQouLdZe@gmail.com
+
+!1234567890_=+)(*&^%$#@!{}?><,./|
+
+©json { "lastName": "Test","firstName": "1234567890_=+)(*&^%$#@!{}?><,./|","refStoreId": 62,"email": "jQouLdZe@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+
+–responseHeaderHttpResponseProxy{HTTP/1.1 400 Bad Request [Server: QRATOR, Date: Wed, 02 Oct 2019 07:53:01 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 192, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: d23a4778ff29a1ada9ab308e70c12150, ETag: W/"c0-EqOraMAqEefOXtsJsEcEVc1aGK4", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580919-1, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 192,Chunked: false]}}
+
+StatusCode 400
+
+statusCodeFromApi 400
+
+©json { "lastName": "Test","firstName": "1234567890_=+)(*&^%$#@!{}?><,./|","refStoreId": 62,"email": "jQouLdZe@gmail.com","phone": "+79036788778","password": "qwertyU1"}
+
+–responseHeaderHttpResponseProxy{HTTP/1.1 400 Bad Request [Server: QRATOR, Date: Wed, 02 Oct 2019 07:53:01 GMT, Content-Type: application/json; charset=utf-8, Content-Length: 192, Connection: keep-alive, Keep-Alive: timeout=15, Access-Control-Allow-Origin: , x-request-id: d48233f2701bed262fc927a1e87afed2, ETag: W/"c0-EqOraMAqEefOXtsJsEcEVc1aGK4", Access-Control-Allow-Headers: origin,channel,lead, x-requested-with, accept,Authorization,x-api-key, Cookie, Content-Type, storecode, apikey, Access-Control-Max-Age: 60, Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE, Access-Control-Allow-Credentials: true, x-apigee-message-id: pruapgmsgext2-20089-26580922-1, x-api-key: ] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 192,Chunked: false]}}
+
+StatusCode 400
+
+ÍresponseBody{"status":false,"errors":[{"message":"Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong","stringCode":"REQUEST_ERROR"}]}
+
+ regResponse1.getStatus(): false
+
+‰r.getMessage() Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong
+
+ r.getStringCode() REQUEST_ERROR
+
+ÇregResponse RegResponse{status=false, message='Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong', stringCode='REQUEST_ERROR'}
+
+ÏregResponseExpected RegResponse{status=false, message='Obligatory parameters (firstName, lastName, email, password, phone, refStoreId) or other paramereters are specified wrong', stringCode='REQUEST_ERROR'}
